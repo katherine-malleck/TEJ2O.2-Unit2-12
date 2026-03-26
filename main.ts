@@ -6,7 +6,7 @@
 */
 
 let distance = 0
-let strip = neopixel.create(DigitalPin.P1, 8, NeoPixelMode.RGB)
+const strip = neopixel.create(DigitalPin.P1, 8, NeoPixelMode.RGB)
 
 basic.clearScreen()
 basic.showIcon(IconNames.Happy)
