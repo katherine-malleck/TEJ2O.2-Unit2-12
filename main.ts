@@ -2,7 +2,7 @@
  *
  * Created by: Katherine
  * Created on: Mar 2026
- * This program ...
+ * This program red light green light
 */
 
 let distance = 0
