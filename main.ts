@@ -22,13 +22,17 @@ input.onButtonPressed(Button.A, function () {
     // ify elesy stuffff
     if (distance < 10) {
         strip.showColor(neopixel.colors(NeoPixelColors.Red))
+        strip.setBrightness(100)
     } else {
         // Green if 10cm or further
         strip.showColor(neopixel.colors(NeoPixelColors.Green))
+        strip.setBrightness(100)
     }
 })
 
 input.onButtonPressed(Button.B, function () {
     basic.clearScreen()
     basic.showIcon(IconNames.Happy)
+    strip.showColor(neopixel.colors(NeoPixelColors.Black))
+    strip.show()
 })
